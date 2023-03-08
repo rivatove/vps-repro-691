@@ -1,0 +1,66 @@
+{
+  "_6abe9a3e.js": {
+    "file": "assets/chunks/6abe9a3e.js",
+    "imports": [
+      "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+    ]
+  },
+  "_d37eddbd.js": {
+    "file": "assets/chunks/d37eddbd.js",
+    "imports": [
+      "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+    ]
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "file": "assets/nodemodules/vite-plugin-ssr/dist/esm/client/entry.aa2ed10b.js",
+    "imports": [
+      "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "pages/index.page.vue",
+      "pages/todos/todo.page.vue",
+      "renderer/_default.page.client.js",
+      "pages/index.page.vue",
+      "pages/todos/todo.page.vue",
+      "renderer/_default.page.client.js"
+    ],
+    "file": "assets/nodemodules/vite-plugin-ssr/dist/esm/client/router/entry.05b7053c.js",
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "pages/index.page.vue": {
+    "file": "assets/pages/index.page.e02d8217.js",
+    "imports": [
+      "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
+      "_d37eddbd.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/index.page.vue"
+  },
+  "pages/todos/todo.page.vue": {
+    "file": "assets/pages/todos/todo.page.1587ac7d.js",
+    "imports": [
+      "_6abe9a3e.js",
+      "_d37eddbd.js",
+      "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/todos/todo.page.vue"
+  },
+  "renderer/_default.page.client.js": {
+    "file": "assets/renderer/default.page.client.33a617f4.js",
+    "imports": [
+      "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js",
+      "_6abe9a3e.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_default.page.client.js"
+  }
+}
